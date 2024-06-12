@@ -1,0 +1,30 @@
+.MovieLink {
+  width: calc(50% - 20px);
+  text-decoration: none;
+}
+.Movie {
+  display: flex;
+}
+.Movie > img {
+  width: 180px;
+  height: 270px;
+}
+.MovieLink:hover h2 {
+  text-decoration: underline;
+}
+.Movie > div {
+  margin-left: 20px;
+}
+.Movie > div > h2 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.Movie > div > p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.Movie > div > ul {
+  display: flex;
+  gap: 10px;
+}
